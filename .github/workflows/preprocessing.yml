@@ -1,5 +1,8 @@
 name: Automated Data Preprocessing
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main ]
